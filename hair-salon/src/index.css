@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    line-height: 1.5;
+}
+
+:focus-visible {
+    outline: 2px solid #8B5E3C;
+    outline-offset: 2px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    /* color: inherit; */
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    font-size: inherit;
+    cursor: pointer;
+}
